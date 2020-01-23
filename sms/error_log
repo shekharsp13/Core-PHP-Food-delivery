@@ -1,0 +1,67 @@
+[29-Oct-2018 17:25:05 Etc/GMT] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php:149
+Stack trace:
+#0 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(134): Services_Twilio->_processJsonResponse(400, Array, '{"code": 21608,...')
+#1 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(113): Services_Twilio->_processResponse(Array)
+#2 /home/rawnaxge/public_html/sms/inc/Services/Twilio/ListResource.php(89): Services_Twilio->createData('Accounts/AC3bff...', Array)
+#3 /home/rawnaxge/public_html/sms/inc/Services/Twilio/CachingDataProxy.php(115): Services_Twilio_ListResource->createData('AC3bff309063bcf...', Array)
+#4 /home/rawnaxge/public_html/sms/inc/Services/Twilio/Resource.php(44): Services_Twilio_CachingDataProxy->createData('SMS/Messages', Array)
+#5 /h in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php on line 149
+[29-Oct-2018 17:25:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php:149
+Stack trace:
+#0 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(134): Services_Twilio->_processJsonResponse(400, Array, '{"code": 21608,...')
+#1 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(113): Services_Twilio->_processResponse(Array)
+#2 /home/rawnaxge/public_html/sms/inc/Services/Twilio/ListResource.php(89): Services_Twilio->createData('Accounts/AC3bff...', Array)
+#3 /home/rawnaxge/public_html/sms/inc/Services/Twilio/CachingDataProxy.php(115): Services_Twilio_ListResource->createData('AC3bff309063bcf...', Array)
+#4 /home/rawnaxge/public_html/sms/inc/Services/Twilio/Resource.php(44): Services_Twilio_CachingDataProxy->createData('SMS/Messages', Array)
+#5 /h in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php on line 149
+[29-Oct-2018 17:25:57 Etc/GMT] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php:149
+Stack trace:
+#0 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(134): Services_Twilio->_processJsonResponse(400, Array, '{"code": 21608,...')
+#1 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(113): Services_Twilio->_processResponse(Array)
+#2 /home/rawnaxge/public_html/sms/inc/Services/Twilio/ListResource.php(89): Services_Twilio->createData('Accounts/AC3bff...', Array)
+#3 /home/rawnaxge/public_html/sms/inc/Services/Twilio/CachingDataProxy.php(115): Services_Twilio_ListResource->createData('AC3bff309063bcf...', Array)
+#4 /home/rawnaxge/public_html/sms/inc/Services/Twilio/Resource.php(44): Services_Twilio_CachingDataProxy->createData('SMS/Messages', Array)
+#5 /h in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php on line 149
+[29-Oct-2018 17:29:31 Etc/GMT] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php:149
+Stack trace:
+#0 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(134): Services_Twilio->_processJsonResponse(400, Array, '{"code": 21608,...')
+#1 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(113): Services_Twilio->_processResponse(Array)
+#2 /home/rawnaxge/public_html/sms/inc/Services/Twilio/ListResource.php(89): Services_Twilio->createData('Accounts/AC3bff...', Array)
+#3 /home/rawnaxge/public_html/sms/inc/Services/Twilio/CachingDataProxy.php(115): Services_Twilio_ListResource->createData('AC3bff309063bcf...', Array)
+#4 /home/rawnaxge/public_html/sms/inc/Services/Twilio/Resource.php(44): Services_Twilio_CachingDataProxy->createData('SMS/Messages', Array)
+#5 /h in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php on line 149
+[29-Oct-2018 17:33:34 Etc/GMT] PHP Warning:  require(/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php): failed to open stream: No such file or directory in /home/rawnaxge/public_html/sms/index.php on line 5
+[29-Oct-2018 17:33:34 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rawnaxge/public_html/sms/index.php on line 5
+[29-Oct-2018 17:33:49 Etc/GMT] PHP Warning:  require(/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php): failed to open stream: No such file or directory in /home/rawnaxge/public_html/sms/index.php on line 5
+[29-Oct-2018 17:33:49 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rawnaxge/public_html/sms/index.php on line 5
+[29-Oct-2018 17:35:25 Etc/GMT] PHP Warning:  require(/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php): failed to open stream: No such file or directory in /home/rawnaxge/public_html/sms/index.php on line 5
+[29-Oct-2018 17:35:25 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rawnaxge/public_html/sms/index.php on line 5
+[29-Oct-2018 17:40:32 Etc/GMT] PHP Warning:  require(/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php): failed to open stream: No such file or directory in /home/rawnaxge/public_html/sms/index.php on line 4
+[29-Oct-2018 17:40:32 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/home/rawnaxge/public_html/sms/twilio-php-master/Twilio/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rawnaxge/public_html/sms/index.php on line 4
+[29-Oct-2018 17:42:38 Etc/GMT] PHP Warning:  require(/twilio-php-master/Twilio/autoload.php): failed to open stream: No such file or directory in /home/rawnaxge/public_html/sms/index.php on line 4
+[29-Oct-2018 17:42:38 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/twilio-php-master/Twilio/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rawnaxge/public_html/sms/index.php on line 4
+[29-Oct-2018 17:42:45 Etc/GMT] PHP Warning:  require(/twilio-php-master/Twilio/autoload.php): failed to open stream: No such file or directory in /home/rawnaxge/public_html/sms/index.php on line 4
+[29-Oct-2018 17:42:45 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/twilio-php-master/Twilio/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rawnaxge/public_html/sms/index.php on line 4
+[29-Oct-2018 17:44:18 Etc/GMT] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/rawnaxge/public_html/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/rawnaxge/public_html/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC3bf...', Array, Array)
+#2 /home/rawnaxge/public_html/sms/index.php(24): Twilio\Rest\Api\V2010\Account\MessageList->create('+918708549212', Array)
+#3 {main}
+  thrown in /home/rawnaxge/public_html/twilio-php-master/Twilio/Version.php on line 85
+[29-Oct-2018 18:18:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php:149
+Stack trace:
+#0 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(134): Services_Twilio->_processJsonResponse(400, Array, '{"code": 21608,...')
+#1 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(113): Services_Twilio->_processResponse(Array)
+#2 /home/rawnaxge/public_html/sms/inc/Services/Twilio/ListResource.php(89): Services_Twilio->createData('Accounts/AC3bff...', Array)
+#3 /home/rawnaxge/public_html/sms/inc/Services/Twilio/CachingDataProxy.php(115): Services_Twilio_ListResource->createData('AC3bff309063bcf...', Array)
+#4 /home/rawnaxge/public_html/sms/inc/Services/Twilio/Resource.php(44): Services_Twilio_CachingDataProxy->createData('SMS/Messages', Array)
+#5 /h in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php on line 149
+[30-Oct-2018 04:24:42 Etc/GMT] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php:149
+Stack trace:
+#0 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(134): Services_Twilio->_processJsonResponse(400, Array, '{"code": 21608,...')
+#1 /home/rawnaxge/public_html/sms/inc/Services/Twilio.php(113): Services_Twilio->_processResponse(Array)
+#2 /home/rawnaxge/public_html/sms/inc/Services/Twilio/ListResource.php(89): Services_Twilio->createData('Accounts/AC3bff...', Array)
+#3 /home/rawnaxge/public_html/sms/inc/Services/Twilio/CachingDataProxy.php(115): Services_Twilio_ListResource->createData('AC3bff309063bcf...', Array)
+#4 /home/rawnaxge/public_html/sms/inc/Services/Twilio/Resource.php(44): Services_Twilio_CachingDataProxy->createData('SMS/Messages', Array)
+#5 /h in /home/rawnaxge/public_html/sms/inc/Services/Twilio.php on line 149
